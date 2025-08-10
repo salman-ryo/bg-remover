@@ -27,3 +27,5 @@ async def remove_bg(file: UploadFile = File(...)):
 
 # Test
 # http://localhost:8000/remove-bg POST with formdata key = file, value = image
+
+# startapp uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
